@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/bear/Developer/Projects/Polimi/Giocoso/code/legodigitalsonoro1/app/src/main/res/values-xhdpi/dimens.xml -->
+    <eat-comment/>
+    <dimen name="card_height">300dp</dimen>
+    <dimen name="card_width">150dp</dimen>
+    <dimen name="column">300dp</dimen>
+    <dimen name="grid_margin">50dp</dimen>
+    <dimen name="grid_spacing">10dp</dimen>
+    <dimen name="my_internal_view_margin">40dp</dimen>
+    <dimen name="my_view_margin">20dp</dimen>
+    <dimen name="result_dim">175dp</dimen>
+</resources>

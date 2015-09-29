@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/bear/Developer/Projects/Polimi/Giocoso/code/legodigitalsonoro1/app/src/main/res/values-hdpi/dimens.xml -->
+    <eat-comment/>
+    <dimen name="card_height">200dp</dimen>
+    <dimen name="card_width">100dp</dimen>
+    <dimen name="column">225dp</dimen>
+    <dimen name="grid_margin">35dp</dimen>
+    <dimen name="grid_spacing">8dp</dimen>
+    <dimen name="my_internal_view_margin">30dp</dimen>
+    <dimen name="my_view_margin">15dp</dimen>
+    <dimen name="result_dim">135dp</dimen>
+    <!-- From: file:/Users/bear/Developer/Projects/Polimi/Giocoso/code/legodigitalsonoro1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-hdpi/values-hdpi.xml -->
+    <eat-comment/>
+    <style name="Base.Widget.AppCompat.DrawerArrowToggle" parent="Base.Widget.AppCompat.DrawerArrowToggle.Common">
+          <item name="barLength">18.66dp</item>
+          <item name="gapBetweenBars">3.33dp</item>
+          <item name="drawableSize">24dp</item>
+     </style>
+</resources>

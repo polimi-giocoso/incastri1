@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sfondo_arancio"
+    android:baselineAligned="false"
+    tools:context="${packageName}.${activityClass}" >
+    
+    <FrameLayout
+        android:id="@+id/container1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_gravity="center" >
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/container2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/my_view_margin"
+        android:layout_weight="2"
+        android:layout_gravity="center" >
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_margin="@dimen/my_view_margin"
+        android:layout_weight="0.4" >
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/logo" />
+
+        <ImageButton
+            android:id="@+id/next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:background="@null"
+            android:onClick="nextMatch"
+            android:src="@drawable/tasto_avanti"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/turn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
+
+</LinearLayout>
+<!-- From: file:/Users/bear/Developer/Projects/Polimi/Giocoso/code/legodigitalsonoro1/app/src/main/res/layout/activity_match.xml -->

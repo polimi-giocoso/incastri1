@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Incastri Sonori 1</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_match">MatchActivity</string>
+    <string name="logo">logo</string>
+    <string name="ita_flag">italiano</string>
+    <string name="eng_flag">english</string>
+    <string name="single">Partita Singola</string>
+    <string name="multiple">Multi-player</string>
+    <string name="tessera">tessera</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Annulla</string>
+    <string name="settings">Impostazioni</string>
+    <string name="preferences">Preferenze</string>
+    <string name="set_num_turn">Turni</string>
+    <string name="set_num_words">Parole per turno</string>
+    <string name="set_email_address">Report</string>
+    <string name="title_paired_devices">Dispositivi noti</string>
+    <string name="title_other_devices">Altri dispositivi</string>
+    <string name="button_scan">Ricerca</string>
+    <string name="none_paired">Nessun dispositivo conosciuto</string>
+    <string name="none_found">Nessun dispositivo trovato</string>
+    <string name="select_device">Scegli un giocatore</string>
+    <string name="scan_device">Instaura una connessione</string>
+    <string name="not_connected">Connessione persa</string>
+
+    <string-array name="connections">
+        <item>Crea una nuova connessione</item>
+        <item>Accetta una connessione</item>
+    </string-array>
+    <string-array name="num_words">
+        <item name="2words">2 parole</item>
+        <item name="3words">3 parole</item>
+    </string-array>
+    <string-array name="num_words_values">
+        <item name="2">2</item>
+        <item name="3">3</item>
+    </string-array>
+
+    <string name="title_activity_connection_setup">ConnectionSetupActivity</string>
+
+</resources>

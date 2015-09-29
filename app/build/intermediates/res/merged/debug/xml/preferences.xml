@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/preferences">
+        <com.example.legodigitalsonoro1.NumberPickerPreference
+            android:title="@string/set_num_turn"
+            android:summary="Imposta numero di turni"
+            android:key="num_turn"
+            android:defaultValue="8"/>
+        
+         <ListPreference
+            android:key="num_words"
+            android:title="@string/set_num_words"
+            android:summary="Imposta numero di parole per turno"
+            android:defaultValue="3"
+            android:entries="@array/num_words"
+            android:entryValues="@array/num_words_values"/>   
+            
+         <EditTextPreference 
+             android:key="email"
+             android:title="@string/set_email_address"
+             android:summary="Imposta indirizzo a cui inviare report"
+             />
+        
+    </PreferenceCategory>
+    
+
+</PreferenceScreen>
+<!-- From: file:/Users/bear/Developer/Projects/Polimi/Giocoso/code/legodigitalsonoro1/app/src/main/res/xml/preferences.xml -->

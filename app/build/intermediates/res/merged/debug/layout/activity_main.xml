@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:baselineAligned="false"
+    android:background="@drawable/sfondo_arancio" >
+
+    <RelativeLayout
+        android:id="@+id/parentlayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/titoli"/>
+
+        <RelativeLayout
+            android:id="@+id/button_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title"
+            android:layout_centerHorizontal="true" >
+
+            <ImageButton
+                android:id="@+id/single_player"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:clickable="true"
+                android:onClick="startSingleMatch"
+                android:src="@drawable/tasto_singolo" />
+
+            <ImageButton
+                android:id="@+id/multiple_players"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/single_player"
+                android:background="@null"
+                android:clickable="true"
+                android:onClick="startMultiplePlayersMatch"
+                android:src="@drawable/tasto_multi" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/settings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="@dimen/my_view_margin"
+        android:background="@null"
+        android:onClick="changeSettings"
+        android:src="@drawable/impostazioni" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_margin="@dimen/my_view_margin"
+        android:src="@drawable/logo" />
+
+</RelativeLayout><!-- From: file:/Users/bear/Developer/Projects/Polimi/Giocoso/code/legodigitalsonoro1/app/src/main/res/layout/activity_main.xml -->

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources   xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <dimen name="my_view_margin">10dp</dimen>
+    <dimen name="my_internal_view_margin">20dp</dimen>
+    <dimen name="result_dim">100dp</dimen>
+    <dimen name="grid_spacing">5dp</dimen>
+    <dimen name="grid_margin">25dp</dimen>
+    <dimen name="card_width">75dp</dimen>
+    <dimen name="card_height">150dp</dimen>
+    <dimen name="column">150dp</dimen>
+    
+</resources>
